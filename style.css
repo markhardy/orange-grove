@@ -1,0 +1,493 @@
+/************************************************************************
+markhardyio.css
+
+Stylesheet for markhardy.io portfolio site.
+
+Created by: Mark Hardy
+Last Updated: 1/3/2022
+*************************************************************************/
+
+@import url("https://fonts.googleapis.com/css2?family=Yantramanav:wght@100&display=swap");
+
+body {
+  background-color: #0A2B49;
+  background-image: url('img/dc-night.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 90%;
+  background-position: bottom;
+  font-family: "Yantramanav", sans-serif;
+  font-weight: 200;
+  height: 100%;
+  line-height: 1.5;
+  margin: 0px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 16px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: inherit;
+}
+
+#intro {
+    background-image: linear-gradient(#0a2b49cb, #0a2b491d);
+    color: white;
+    font-size: 65px;
+    font-weight: 700;
+    margin-top: 5%;
+    padding-bottom: 15%;
+    padding-left: 10%;
+    padding-right: 5%;
+    text-align: left;
+    width: 85%;
+}
+
+#logo-top {
+    background-color: rgba(255, 255, 255, 0);
+    border: 3px solid white;
+    border-radius: 50%;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+
+#logo-top > img {
+    height: 100%;
+    width: 100%;
+}
+
+#intro-text {
+    display: inline-block;
+    width: 50%;
+}
+
+.big {
+    font-size: 60px;
+    padding-top: 20%;
+}
+
+#open {
+    background-color: #0A2B49;
+    opacity: .8;
+    border: 5px solid white;
+    color: white;
+    margin: auto;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    text-align: center;
+    width: 65%;
+}
+
+#questions {
+    background-color: #0A2B49;
+    border: 5px solid white;
+    margin: auto;
+    margin-bottom: 200px;
+    margin-top: 200px;
+    width: 65%;
+}
+
+#confused,
+#brainstorming,
+.question-list {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 600;
+    width: 40%;
+}
+
+#right-place {
+    background-color:#ff9015;
+    opacity: .9;
+    border: 5px solid white;
+    font-weight: 600;
+    margin: auto;    
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-align: center;
+    width: 65%;
+}
+
+#value-questions {
+    background-color: #0A2B49;
+    border: 5px solid white;
+    margin: auto;
+    margin-bottom: 200px;
+    margin-top: 200px;
+    opacity: .9;
+}
+
+.section {
+    background-color: #0A2B49;
+    border: 5px solid white;
+    color: white;
+    margin: auto;
+    margin-bottom: 200px;
+    margin-top: 200px;
+    opacity: .9;
+    padding-bottom: 50px;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 50px;
+    width: 65%;
+}
+
+#final {
+    color: white;
+    margin: auto;
+    text-align: center;
+    width: 70%;
+}
+
+.logo-img {
+    background-color:rgb(255, 0, 0);
+    border: 1px solid white;
+    height: 100px;
+    width: 200px;
+}
+
+.circle-img {
+    background-color: red;
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.impact-type {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.impact-type > li {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+#consult {
+    text-decoration: underline;
+}
+
+.orange {
+    color:#ff9015;
+}
+
+.blue {
+    color:#07a0f8;
+}
+
+.pop {
+    color:#1df989;
+}
+
+#confused,
+#brainstorming {
+    background-color: white;
+    border: 3px solid #ff9015;
+    border-radius: 50%;
+    padding: 12px;
+    height: 128px;
+    width: 128px;
+}
+
+#confused {
+    margin-left: 10%;
+    margin-right: 20%;
+}
+
+#brainstorming {
+    margin-left: 20%;
+    margin-right: 10%;
+}
+
+#consultation-btn {
+    display: block;
+    margin-bottom: 5%;
+    height: 100px;
+    width: 70%;
+}
+
+#programmers-img {
+    display: inline-block;
+    border: 3px solid white;
+    height: 270px;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    width: 35%;
+}
+
+.advantages-container {
+    display: inline-block;
+    margin-bottom: 30px;
+    margin-left: 15%;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-70 {
+    width: 70%;
+}
+
+.advantage {
+    background-color:rgb(237, 227, 227);
+    border: 3px solid #ff9015;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    color:#0A2B49;
+    display: inline-flex;
+    font-weight: 600;
+    height: 200px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.adv-img-bg {
+    background-color: #f4bd90;
+    border: 1px, solid, black;
+    border-radius: 50px;
+    display: inline-flex;
+    margin-left: 5%;
+    margin-right: 10%;
+    margin-top: 15%;
+    height: 64px;
+    width: 64px;
+}
+
+.adv-img {
+    display: block;
+    margin: auto;
+    height: 40px;
+    width: 40px;
+}
+
+.adv-text {
+    display: inline-block;
+    margin-right: 5%;
+    width: 60%;
+}
+
+#footer {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.162), #5a00c9);
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    height: 100%;
+    margin-top: 200px;
+    opacity: .7;
+}
+
+#footer-left {
+    display: inline-block;
+    margin-left: 5%;
+    margin-top: 15%;
+}
+
+#links {
+    display: inline-block;
+    margin-left: 20%;
+    margin-top: 15%;
+}
+
+#links > ul {
+    list-style-type: none;
+}
+
+#links > ul > li {
+    margin-top: 10px;
+}
+
+#links > ul > li:hover {
+    text-decoration: underline;
+}
+
+#company {
+    display: inline-block;
+    margin-top: 23%;
+    position: absolute;
+}
+
+#links a {
+    color: white;
+    text-decoration: none;
+}
+
+#footer-logo {
+    height: 28px;
+    width: 28px;
+}
+
+#footer-text {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#address {
+    margin-left: 10%;
+}
+
+.click-btn {
+    background-color: #0a2b4973;
+    border-color: white;
+    border-radius: 7px;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+    padding: 5px;
+    height: 45px;
+    width: 40%;
+}
+
+.click-btn:hover {
+    background-color: white;
+    border-color:#5a00c9;
+    color:#5a00c9;
+}
+
+#header {
+  background-color:#ff9015;
+  border-bottom: 1px solid white;
+  font-family: "Krona One", Helvetica, sans-serif;
+  font-weight: 100;
+  height: 90px;
+  opacity: .8;
+  position: fixed;
+  text-align: right;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+#header a {
+  color: white;
+  text-decoration: none;
+}
+
+#header img {
+  height: 70%;
+  margin-top: 10px;
+  padding-left: 5%;
+}
+
+.header-text {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-right: 5%;
+}
+
+#header a:hover {
+    background-color: white;
+    color:#ff9015;
+}
+
+@media screen and (max-width: 800px) {
+  #skills-container {
+    grid-template-columns: auto auto auto;
+  }
+
+  .grid-container {
+    grid-column-gap: 0px;
+    grid-template-columns: auto;
+    height: unset;
+  }
+
+  .grid-item:before {
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+
+  .grid-item {
+    height: unset;
+  }
+
+  .grid-text {
+    margin-left: 50%;
+    opacity: 1;
+    width: 50%;
+  }
+
+  .grid-text p {
+    font-size: 18px;
+    font-weight: 600;
+    position: unset;
+    text-align: center;
+  }
+
+  #intro,
+  #portfolio {
+    height: unset;
+  }
+
+  .hvr-rectangle-in:hover:before,
+  .hvr-rectangle-in:focus:before,
+  .hvr-rectangle-in:active:before {
+    -webkit-transform: unset;
+    transform: unset;
+  }
+}
+
+
+body[data-aos-duration='6000'] [data-aos],
+[data-aos][data-aos][data-aos-duration='6000'] {
+  transition-duration: 6000ms;
+}
+
+body[data-aos-duration='9000'] [data-aos],
+[data-aos][data-aos][data-aos-duration='9000'] {
+  transition-duration: 9000ms;
+}
+
+body[data-aos-duration='12000'] [data-aos],
+[data-aos][data-aos][data-aos-duration='12000'] {
+  transition-duration: 12000ms;
+}
+
+body[data-aos-duration='15000'] [data-aos],
+[data-aos][data-aos][data-aos-duration='15000'] {
+  transition-duration: 15000ms;
+}
+
+body[data-aos-delay='6000'] [data-aos],
+[data-aos][data-aos][data-aos-delay='6000'] {
+  transition-delay: 6000ms;
+}
+
+body[data-aos-delay='9000'] [data-aos],
+[data-aos][data-aos][data-aos-delay='9000'] {
+  transition-delay: 9000ms;
+}
+
+body[data-aos-delay='12000'] [data-aos],
+[data-aos][data-aos][data-aos-delay='12000'] {
+  transition-delay: 12000ms;
+}
+
+body[data-aos-delay='15000'] [data-aos],
+[data-aos][data-aos][data-aos-delay='15000'] {
+  transition-delay: 15000ms;
+}
