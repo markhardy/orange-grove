@@ -11,6 +11,7 @@ Updated: 06/13/2022
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+        <script type="text/javascript" src="orangegrove.js"></script>
         <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
@@ -20,6 +21,7 @@ Updated: 06/13/2022
         <meta name="theme-color" content="#ffffff">
 		<link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="style.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 		<title>Political Technology Consulting - Orange Grove Digital</title>
 	</head>
 	<body>
@@ -114,6 +116,7 @@ Updated: 06/13/2022
             <img class="circle-img" src="img/azgop.png" alt="Arizona Republican Party">
             <img class="logo-img" src="img/gop.png" alt="Republican Party">
         </div>
+        
         <div id="footer">
             <div id="footer-left">
                 <img src="img/orange_dots.png" alt="Orange Grove Logo" height="64px" width="64px">
@@ -126,10 +129,18 @@ Updated: 06/13/2022
             <div id="links">
                 <ul>
                     <li><a href="about.html">About Us</a></li>
-                    <li><a href="startups.html">For Startups</a></li>
                     <li><a href="campaigns.html">For Campaigns</a></li>
                 </ul>
             </div>
         </div>
+        <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script>
+			AOS.init({
+				easing: 'ease-out-back',
+                offset: -200,
+                once: true,
+			});
+		</script>
 	</body>
 </html>

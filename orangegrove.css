@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Yantramanav:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+
+body {
+    background-attachment: fixed;
+  background-color: black;
+  background-image: url('img/capitol-outline.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 200;
+  height: 100%;
+  line-height: 1.5;
+  margin: 0px;
+}
+
+li {
+    list-style-type: none;
+    padding-bottom: 30px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+#header {
+    background-color: black;
+    border-bottom: 1px solid #ff6f00;
+    color: #ff6f00;
+    display: flex;
+    font-family: 'Cedarville Cursive', cursive;
+    height: 75px;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  #header a {
+    color: #ff6f00;
+    text-decoration: none;
+  }
+  
+  #header img {
+    height: 70%;
+    margin-top: 10px;
+    padding-left: 5%;
+  }
+  
+  .header-text {
+      margin-bottom: 0;
+      margin-top: 0;
+      padding-right: 5%;
+  }
+  
+  #header a:hover {
+      background-color: white;
+      color:#ff6f00;
+  }
+  
+  #header-container {
+      margin: auto;
+      width: min-content;
+  }
+  
+  #header-container > h3 {
+      overflow: hidden; /* Ensures the content is not revealed until the animation */
+      border-right: .15em solid orange; /* The typwriter cursor */
+      white-space: nowrap; /* Keeps the content on a single line */
+      margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+      letter-spacing: .15em; /* Adjust as needed */
+      animation: 
+          typing 4.5s steps(40, end),
+          blink-caret .75s step-end infinite;
+  }
+
+#hero {
+    background-color: black;
+    height: 80px;
+}
+
+#hero-branding {
+    color: #ff6f00;
+    display: flex;
+    margin-left: 10%;
+    margin-top: 700px;
+    width: 90%;
+}
+
+#hero-text {
+    display: block;
+    margin-left: 20px;
+}
+
+.sm-img {
+    height: 70px;
+    width: 70px;
+}
+
+.lg-img {
+    height: 140px;
+    width: 140px;
+}
+
+#about {
+    background-color:#fedcc2;
+    height: fit-content;
+    width: 100%;
+}
+
+#about-top {
+    padding-top: 50px;
+}
+
+#solutions {
+    background-color: white;
+    height: fit-content;
+    width: 100%;
+}
+
+.orange {
+    color: #ff6f00;
+}
+
+.yantramanav {
+    font-family: Yantramanav, "Times New Roman", sans-serif;
+}
+
+.text-right {
+    margin-left: 15%;
+    text-align: right;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.center {
+    margin: auto;
+}
+
+.font-22 {
+    font-size: 32px;
+}
+
+.circle {
+    border: 3px solid black;
+    border-radius: 50%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.spacing-v {
+    padding-top: 60px;
+}
+
+#problems {
+    background-color: white;
+    color: black;
+    font-family: "Open Sans";
+}

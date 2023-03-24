@@ -144,7 +144,7 @@ a {
 }
 
 .section {
-    background-color: #0A2B49;
+    background-color: hsl(209, 76%, 16%);
     border: 5px solid white;
     color: white;
     margin: auto;
@@ -156,6 +156,10 @@ a {
     padding-right: 75px;
     padding-top: 50px;
     width: 65%;
+}
+
+.flex {
+    display: flex;
 }
 
 #final {
@@ -233,6 +237,7 @@ a {
 #confused {
     margin-left: 10%;
     margin-right: 20%;
+    margin-top: 7%;
 }
 
 #brainstorming {
@@ -535,6 +540,106 @@ a {
 }
 
 @media screen and (max-width: 800px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    #links {
+        margin-left: 40%;
+    }
+
+    #footer-text {
+        margin-left: 5px;
+        margin-top: 27.5%;
+    }
+
+    .big {
+        margin: auto;
+        margin-top: 200px;
+        padding-bottom: 100px;
+        text-align: center;
+        width: 100%;
+    }
+
+    #intro-text {
+        width: 100%;
+    }
+
+    #for {
+        font-size: 30px;
+        padding-top: 0px;
+    }
+
+    #logo-top {
+        visibility: hidden;
+    }
+
+    .advantage {
+        display: block;
+        font-size: 12px;
+        height: fit-content;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .adv-img-bg {
+        margin: 0;
+        margin-top: 16px;
+        padding: 0;
+        text-align: center;
+    }
+
+    .adv-text {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .adv-text > h1 {
+        font-size: 24px;
+    }
+
+    .adv-text > p {
+        font-size: 16px;
+    }
+
+    .section {
+        margin-bottom: 100px;
+        margin-top: 100px;
+        padding-bottom: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 10px;
+        text-align: center;
+        width: 95%;
+    }
+
+    .question-list {
+        margin: 0;
+        margin-top: 40px;
+        padding: 0;
+    }
+
+    #confused,
+    #brainstorming {
+        margin: 0;
+    }
+
+    #brainstorming {
+        height: 0;
+        opacity: 0;
+        width: 0;
+    }
+
+
+
+    .flex {
+        display: block;
+        text-align: center;
+    }
+    
   #skills-container {
     grid-template-columns: auto auto auto;
   }
